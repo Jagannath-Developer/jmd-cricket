@@ -8,6 +8,9 @@ export default function NavBar() {
         <Link className="navbar-brand text-white fw-bold" to="/">
           JMD CRICKET
         </Link>
+        <Link className="navbar-brand text-white" to="/register">
+          Register
+        </Link>
       </div>
     </nav>
   );

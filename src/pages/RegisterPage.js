@@ -3,7 +3,7 @@ import "../index.css";
 import { baseUrl } from "../utils/api";
 import { useNavigate } from "react-router-dom";
 
-export default function HomePage() {
+export default function RegisterPage() {
   const [isLoading, setIsLoading] = useState(false);
   const [teamName, setTeamName] = useState("");
   const [captainName, setCaptainName] = useState("");
@@ -54,7 +54,7 @@ export default function HomePage() {
         console.log("add Successfully");
         setIsLoading(true);
         setTimeout(() => {
-            history("/users");
+            history("/");
         }, 2000);
       })
       .catch((err) => {
@@ -86,7 +86,10 @@ export default function HomePage() {
         <Loading />
       ) : (
         <div className="p-2 ">
-          <div>
+          <div className="text-center mt-2">
+            <h4>Register</h4>
+          </div>
+          <div className="pt-2">
             <div className="input-group mt-3 has-validation">
               <span
                 className="input-group-text bi bi-bezier"
