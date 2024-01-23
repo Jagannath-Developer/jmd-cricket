@@ -8,9 +8,15 @@ export default function NavBar() {
         <Link className="navbar-brand text-white fw-bold" to="/">
           JMD CRICKET
         </Link>
+        <div>
+
+        <Link className="navbar-brand text-white" to="/users">
+          Teams
+        </Link>
         <Link className="navbar-brand text-white" to="/register">
           Register
         </Link>
+        </div>
       </div>
     </nav>
   );

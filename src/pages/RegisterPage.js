@@ -19,6 +19,7 @@ export default function RegisterPage() {
   const history = useNavigate();
 
   const addMember = async () => {
+    
     const member = {
       name: name,
       mobile: mobile,
