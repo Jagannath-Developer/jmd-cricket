@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HomePage() {
   const url =
-    "https://firebasestorage.googleapis.com/v0/b/fir-app-b3afe.appspot.com/o/cricket_jmd_demo.jpg?alt=media&token=760ed78f-e0b4-455c-b8b0-94db83ef55bf";
+    "https://firebasestorage.googleapis.com/v0/b/fir-app-b3afe.appspot.com/o/photo.jpg?alt=media&token=5f4bbdfd-b635-4547-95a1-38ada444c9ef";
 
   return (
     <div className="container">
