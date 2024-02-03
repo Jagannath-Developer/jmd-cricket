@@ -7,6 +7,7 @@ export default function HomePage() {
   return (
     <div className="container">
       <div className="mt-4">
+        <h1>Surla Junction</h1>
         <img src={url} alt="img" className="w-100" />
       </div>
     </div>
