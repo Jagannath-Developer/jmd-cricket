@@ -6,7 +6,7 @@ export default function NavBar() {
     <nav className="navbar navbar-expand-lg bg-primary">
       <div className="container-fluid">
         <Link className="navbar-brand text-white fw-bold" to="/">
-          JMD-CRICKET
+          JMD-CRICKET 2024
         </Link>
         <div>
 
