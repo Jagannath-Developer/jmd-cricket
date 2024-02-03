@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
+// import {} from 'react-router-dom'
 import { baseUrl } from "../utils/api";
 
 export default function UsersPage() {
   const [usersData, setUsersData] = useState([]);
   useEffect(() => {
     fetchUsers();
+    // window.location.reload()
   }, []);
   const fetchUsers = async () => {
     await baseUrl
@@ -17,6 +19,7 @@ export default function UsersPage() {
       .catch((err) => {
         console.log(err);
       });
+      // window.location.reload();
   };
   return (
     <div className="container">
